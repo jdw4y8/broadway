@@ -4,13 +4,17 @@ html {
 }
 
 header,
-#design,
 footer {
   color: white;
 }
 
 header {
-  background-image: url(./resources/images/the-flatiron-building.png);
+  background-image: url("./resources/images/the-flatiron-building.png");
+}
+
+#design {
+  color: white;
+  background-image: url("./resources/images/the-flatiron-building.png");
 }
 
 h1 {
@@ -33,6 +37,7 @@ p {
 
 footer {
   text-align: left;
+  background-color: dimgray;
 }
 
 .foot {
